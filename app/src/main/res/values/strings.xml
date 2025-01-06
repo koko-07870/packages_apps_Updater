@@ -20,7 +20,7 @@
 
     <!-- Directory where the update files will be downloaded and stored.
          WARNING: The application can and will delete any unknown file. -->
-    <string name="download_path" translatable="false">/data/risingos_updates/</string>
+    <string name="download_path" translatable="false">/data/pixelos_updates/</string>
 
     <!-- Directory where the downloads will be exported to.
          The path is relative to the root of the external storage.-->
@@ -30,9 +30,7 @@
         Optional placeholders replaced at runtime:
           {device} - Device name
     -->
-    <string name="updater_server_url_gapps" translatable="false">https://raw.githubusercontent.com/RisingTechOSS-devices/android_vendor_RisingOTA/fifteen/GAPPS_{device}.json</string>
-    <string name="updater_server_url_core" translatable="false">https://raw.githubusercontent.com/RisingTechOSS-devices/android_vendor_RisingOTA/fifteen/CORE_{device}.json</string>
-    <string name="updater_server_url_vanilla" translatable="false">https://raw.githubusercontent.com/RisingTechOSS-devices/android_vendor_RisingOTA/fifteen/VANILLA_{device}.json</string>
+    <string name="updater_server_url" translatable="false">https://raw.githubusercontent.com/RisingTechOSS-devices/android_vendor_RisingOTA/fifteen/GAPPS_{device}.json</string>
 
     <string name="verification_failed_notification">Verification failed</string>
     <string name="verifying_download_notification">Verifying update</string>

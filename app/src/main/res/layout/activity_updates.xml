@@ -44,7 +44,7 @@
                 android:layout_gravity="right|center"
                 android:layout_marginTop="16dp"
                 android:layout_marginRight="16dp"
-                android:src="@drawable/ic_rising"
+                android:src="@drawable/ic_pixel"
                 android:visibility="visible" />
 
             <RelativeLayout
@@ -234,7 +234,7 @@
         android:padding="46dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <com.rising.updater.RandomMessageTextView
+        <com.pixel.updater.RandomMessageTextView
             android:id="@+id/no_updates_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
