@@ -65,7 +65,7 @@
                     android:paddingBottom="16dp"
                     android:textColor="?android:attr/textColorPrimary"
                     android:textSize="56sp"
-                    tools:text="risingOS\n20"/>
+                    tools:text="PixelOS\n20"/>
 
                 <TextView
                     android:id="@+id/header_build_version"
